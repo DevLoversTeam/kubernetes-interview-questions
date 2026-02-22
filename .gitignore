@@ -1,0 +1,47 @@
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================
+# Editor directories and files
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# =========================
+# Security & Secrets (CRITICAL)
+# =========================
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# =========================
+# Kubernetes & Infrastructure
+# =========================
+kubeconfig
+.kube/
+*.tgz
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# =========================
+# Temporary files / Archives
+# =========================
+*.bak
+*.tmp
+*.log
+*.tar.gz
+*.zip
